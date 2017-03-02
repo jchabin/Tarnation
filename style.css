@@ -22,7 +22,7 @@ button{
 	top: 55vh;
 	left: 30vw;
 }
-.bottom{
+#bottom{
 	position: absolute;
 	bottom: -15vh;
 }
