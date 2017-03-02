@@ -4,6 +4,7 @@ window.onload=function(){
 	document.getElementById("bottom").style.top=wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10+"px";
 }
 function tarnation(){
+	document.getElementById("hidden").style.diplay="block";
 	var query;
 	var results;
 	var s=new XMLHttpRequest();
