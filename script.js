@@ -1,7 +1,7 @@
 var wot;
 window.onload=function(){
 	var wot=document.getElementById("wot");
-	document.getElementById("bottom").style.top=wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10;
+	document.getElementById("bottom").style.top=wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10+"px";
 }
 function tarnation(){
 	var query;
