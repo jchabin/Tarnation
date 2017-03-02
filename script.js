@@ -1,3 +1,7 @@
+var wot=document.getELemntById("wot");
+window.onload=function(){
+	wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10
+}
 function tarnation(){
 	var query;
 	var results;
@@ -7,7 +11,7 @@ function tarnation(){
 		if(this.readystate==4&&this.status==200){
 			results=this.responseText;
 			results=results.results[Math.floor(Math.random()*results.results.length)].iurl;
-			document.getElementById("wot").src=results;
+			wot.src=results;
 		}
 	}
 	s.send();
