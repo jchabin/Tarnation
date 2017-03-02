@@ -1,4 +1,4 @@
-var wot=document.getELemntById("wot");
+var wot=document.getElementById("wot");
 window.onload=function(){
 	document.getElementById("bottom").style.top=wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10;
 }
