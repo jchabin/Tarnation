@@ -11,8 +11,9 @@ button{
 }
 #hat{
 	position: absolute;
-	top: 20px;
-	left: 50px;
+	width: 40vh;
+	top: 10vh;
+	left: 30vw;
 }
 #wot{
 	width: 40vw;
