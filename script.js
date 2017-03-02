@@ -1,6 +1,6 @@
 var wot=document.getELemntById("wot");
 window.onload=function(){
-	wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10
+	document.getElementById("bottom").style.top=wot.getBoundingClientRect().top+wot.getBoundingClientRect().height+10;
 }
 function tarnation(){
 	var query;
