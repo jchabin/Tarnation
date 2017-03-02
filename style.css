@@ -6,3 +6,6 @@ button{
 	font-size: 7vh;
 	font-family: Cursive;
 }
+#hidden{
+	visibility: hidden;
+}
