@@ -25,4 +25,5 @@ button{
 #bottom{
 	position: absolute;
 	background-color: green;
+	border: none;
 }
