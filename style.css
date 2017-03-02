@@ -12,13 +12,13 @@ button{
 #hat{
 	position: absolute;
 	width: 40vw;
-	top: 10vh;
+	top: 25vh;
 	left: 30vw;
 	z-index: 99999;
 }
 #wot{
 	width: 40vw;
 	position: absolute;
-	top: 20vh;
+	top: 35vh;
 	left: 30vw;
 }
